@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #000000;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}

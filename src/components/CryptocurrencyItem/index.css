@@ -1,0 +1,65 @@
+/* Write your CSS code here */
+.heading-list-itemm {
+  background-color: transparent;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .heading-list-itemm {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 16px;
+}
+@media screen and (max-width: 768px) {
+  .logo-image {
+    margin-right: 10px;
+  }
+}
+.heading4 {
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: white;
+  width: 10%;
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+  .heading4 {
+    font-size: 13px;
+    width: 20%;
+  }
+}
+.heading5 {
+  width: 10%;
+}
+@media screen and (max-width: 768px) {
+  .heading5 {
+    width: 20%;
+    font-size: 13px;
+  }
+}
+.currency-name {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+  .currency-name {
+    font-size: 15px;
+  }
+}
